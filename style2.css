@@ -1,0 +1,153 @@
+import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+ margin: 0;
+padding: 0;
+font-family: 'Comfortaa', sans-serif;
+}
+
+body{
+    background-image: url(../images/white-painted-wall-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+}
+
+header{
+    height: 10vw;
+    background-color: #213E52;
+    opacity: 70%
+}
+main{
+      max-width: 98vw;
+    margin: auto;
+}
+#logo{
+    height: 10vw;
+    position: absolute;
+    width: 100vw;
+    top: 2vw;
+}
+
+.logo_1 img{
+    position: absolute;
+    width: 50vw;
+    left: -9vw;
+   
+}
+h1{
+    font-family: 'Comfortaa', cursive;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+}
+.LOGO img{
+    position: absolute;
+    width: 8vw;
+    top: -1vw;
+    left: 41vw;
+    animation: pulse 2s infinite;
+  
+}
+
+   @keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.logo_2 img{
+    position: absolute;
+    width: 40vw;
+    right:9.5vw;
+}
+.navigation{
+    position: absolute;
+    width: 60vw;
+    left: 40vw;
+    font-size: 1.5vw;
+}
+.active{
+    background-color: azure;
+}
+
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li{
+    float: left;
+     border-right:1px solid #bbb;
+    
+    
+}
+li a{
+display: block;
+color: #213E52;
+    text-decoration: none;
+    padding: 9px
+}
+
+li a:hover{
+    background-color: #bbb;
+}
+.active{
+    background-color: azure;
+}
+main{
+    position: absolute;
+}
+#img{
+
+position: absolute;
+    height: 20vw;
+    width: 20vw;
+    top: 8vw;
+    left: 6vw;
+    border-radius: 50%;
+    background-image:url(../images/20200212_120443.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+article{
+position: absolute;
+height: 50vw;
+width: 60vw;
+left: 27vw;
+    top: 15vw;
+background-color: #C0C0C0;
+opacity: 70%;
+}
+#logos{
+    height: 10vw;
+    width: 16vw;
+    display: flex;
+}
+.facebook{
+    height: 10vw;
+    width: 8vw;
+    background-image: url(../images/f_logo_RGB-Hex-Blue_512.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.insta{
+  height: 10vw;
+    width: 8vw;
+    background-image: url(../images/instagram-new-logo-may-2016.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}

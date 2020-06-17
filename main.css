@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+ margin: 0;
+padding: 0;
+font-family: 'Comfortaa', sans-serif;
+}
+
+body{
+    background-image: url(../images/white-painted-wall-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+
+header{
+    height: 10vw;
+    background-color: #213E52;
+    opacity: 70%
+}
+main{
+      max-width: 98vw;
+    margin: auto;
+}
+#logo{
+    height: 10vw;
+    position: absolute;
+    width: 100vw;
+    top: 2vw;
+}
+
+.logo_1 img{
+    position: absolute;
+    width: 50vw;
+    left: -9vw;
+   
+}
+.LOGO img{
+    position: absolute;
+    width: 8vw;
+    top: -1vw;
+    left: 41vw;
+    animation: pulse 2s infinite;
+  
+}
+
+   @keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.logo_2 img{
+    position: absolute;
+    width: 40vw;
+    right:9.5vw;
+}
+.navigation{
+    position: absolute;
+    width: 60vw;
+    left: 40vw;
+    font-size: 1.5vw;
+}
+.active{
+    background-color: azure;
+}
+
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li{
+    float: left;
+     border-right:1px solid #bbb;
+    
+    
+}
+li a{
+display: block;
+color: #213E52;
+    text-decoration: none;
+    padding: 9px
+}
+
+li a:hover{
+    background-color: #bbb;
+}
+
+.info h3{
+    position: absolute;
+    top:  25vw;
+    left: 5vw;
+    color: #213E52;
+    font-size: 2vw;
+    text-align: center;
+}
+.button{
+position: absolute;
+height: 2vw;
+width:10vw;
+top: 30vw;
+    left: 45vw;
+background-color: #213E52;
+    border-radius: 15%;
+    opacity: 70%;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.button a{
+    position: absolute;
+    color:#EDD6D6; 
+    font-size: 1.5vw;
+    bottom: .1vw;
+    right: 1vw;
+    text-decoration: none;
+    
+}
+
+
+
+.button:hover{
+   
+    transform: scale(1.1);
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 600px) {
+    body{
+        height: 100vh;
+        background-size: cover;
+    }
+    .info h3{
+    position: absolute;
+    top:  90vw;
+    left: 5vw;
+    color: #213E52;
+    font-size: 4vw;
+    text-align: center;
+}
+    
+    .button{
+position: absolute;
+height: 8vw;
+width:19vw;
+top: 110vw;
+    left: 45vw;
+background-color: #213E52;
+    border-radius: 15%;
+    opacity: 70%;
+    cursor: pointer;
+    
+}
+.button a{
+    position: absolute;
+    color:#EDD6D6; 
+    font-size: 3vw;
+    bottom: 2.5vw;
+    right: 1vw;
+    text-decoration: none;
+    
+}
+.button:hover{
+   
+    transform: scale(1.1);
+}
+    
+    .navigation{
+        font-size: 3vw;
+        left: 20vw;
+    }
+    
+    li{
+        float: left;
+    }
+    
+    
+    
+    
+    
+}
